@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1Ch-rL-gHx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Multiplayer_Tic_Tac_Toe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="field" translatesAutoresizingMaskIntoConstraints="NO" id="CBg-Cc-QKM" customClass="TTTImageView" customModule="Multiplayer_Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="9jl-kY-gYU" customClass="TTTImageView" customModule="Multiplayer_Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="280" y="474" width="55" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="OQ0-Ff-vv4" customClass="TTTImageView" customModule="Multiplayer_Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="160" y="474" width="55" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="8I4-3u-Ewb" customClass="TTTImageView" customModule="Multiplayer_Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="42" y="474" width="55" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="TnP-d2-s7G" customClass="TTTImageView" customModule="Multiplayer_Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="280" y="349" width="55" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="Rrd-Kc-R9A" customClass="TTTImageView" customModule="Multiplayer_Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="160" y="349" width="55" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="fsc-62-7ui" customClass="TTTImageView" customModule="Multiplayer_Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="40" y="349" width="55" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="gDR-1e-ck3" customClass="TTTImageView" customModule="Multiplayer_Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="280" y="230" width="55" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="rbn-xO-LFw" customClass="TTTImageView" customModule="Multiplayer_Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="160" y="230" width="55" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="hK2-l9-b8N" customClass="TTTImageView" customModule="Multiplayer_Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="42" y="230" width="55" height="55"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WVg-jU-tEC">
+                        <barButtonItem key="leftBarButtonItem" title="Connect" style="done" id="sh5-ex-FIT">
+                            <connections>
+                                <action selector="connectWithPlayer:" destination="vXZ-lx-hvc" id="mk7-sp-cfu"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="New Game" style="done" id="wnN-HS-G6R">
+                            <connections>
+                                <action selector="newGame:" destination="vXZ-lx-hvc" id="BXt-37-3Qc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outletCollection property="fields" destination="hK2-l9-b8N" collectionClass="NSMutableArray" id="C4A-DZ-VCq"/>
+                        <outletCollection property="fields" destination="rbn-xO-LFw" collectionClass="NSMutableArray" id="WhX-iE-hbu"/>
+                        <outletCollection property="fields" destination="fsc-62-7ui" collectionClass="NSMutableArray" id="CZa-Jx-kKv"/>
+                        <outletCollection property="fields" destination="gDR-1e-ck3" collectionClass="NSMutableArray" id="pok-FM-B3w"/>
+                        <outletCollection property="fields" destination="Rrd-Kc-R9A" collectionClass="NSMutableArray" id="dK9-3q-OJd"/>
+                        <outletCollection property="fields" destination="TnP-d2-s7G" collectionClass="NSMutableArray" id="zqY-6W-hD8"/>
+                        <outletCollection property="fields" destination="8I4-3u-Ewb" collectionClass="NSMutableArray" id="0zv-dx-Zd9"/>
+                        <outletCollection property="fields" destination="OQ0-Ff-vv4" collectionClass="NSMutableArray" id="lPx-jA-Ffa"/>
+                        <outletCollection property="fields" destination="9jl-kY-gYU" collectionClass="NSMutableArray" id="8FU-9b-HS4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1191.5" y="313.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Czu-p4-r45">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1Ch-rL-gHx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ksw-Kv-g7a">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="l03-ls-gEb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KyR-Ka-pjS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442" y="-413"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="field" width="640" height="1007"/>
+        <image name="x" width="100" height="100"/>
+    </resources>
+</document>
